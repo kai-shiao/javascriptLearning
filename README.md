@@ -10,3 +10,4 @@ the user to provide input, with JavaScript immediately providing a response.
 4. Find total vowels in a string.
 5. Number reversal machine
 6. Numerical comparison
+7. Positive or negative
