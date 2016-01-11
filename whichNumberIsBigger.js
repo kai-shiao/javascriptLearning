@@ -16,7 +16,7 @@ function whichNumberIsBigger(){
 			document.getElementById('response').textContent=secondNumber;
 		}
 	} else {
-		document.getElementById().textContent='Please enter 2 different numbers.';
+		document.getElementById('response').textContent='Please enter 2 different numbers.';
 	}
 }
 
