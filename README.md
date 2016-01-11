@@ -9,3 +9,4 @@ the user to provide input, with JavaScript immediately providing a response.
 3. Find longest word in a string. 
 4. Find total vowels in a string.
 5. Number reversal machine
+6. Numerical comparison
