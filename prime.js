@@ -26,7 +26,7 @@ function PrimeNumberSolver(){
  
 	if (count>0){
 		result='composite';
-	}else{
+	} else {
 		result='prime';
 	}
 
