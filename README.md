@@ -1,13 +1,16 @@
-# javascriptCodingQuestions
-javascriptCodingQuestions is a repository containing a collection of 
-JavaScript programs integrated with HTML. In this context, this allows 
-the user to provide input, with JavaScript immediately providing a response.
+<h1>javascriptCodingQuestions</h1>
 
-## PROGRAMS
-1. Palindrome checker
-2. Prime number checker
-3. Find longest word in a string. 
-4. Find total vowels in a string.
-5. Number reversal machine
-6. Numerical comparison
-7. Positive or negative
+<p>javascriptCodingQuestions is a repository containing a collection of JavaScript programs integrated with HTML. In this context, this allows the user to 
+provide input, with JavaScript immediately providing a response.</p>
+
+<h2>PROGRAMS</h2>
+<ol>
+	<li>Palindrome checker</li>
+	<li>Prime number checker</li>
+	<li>Find longest word in a string.</li>
+	<li>Find total vowels in a string.</li>
+	<li>Number reversal machine</li>
+	<li>Numerical comparison</li>
+	<li>Positive or negative</li>
+	<li>Simple audio navigator</li>
+</ol>
