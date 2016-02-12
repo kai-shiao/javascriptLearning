@@ -13,6 +13,7 @@ provide input, with JavaScript immediately providing a response.</p>
 	<li>Numerical comparison</li>
 	<li>Positive or negative</li>
 	<li>Simple audio navigator</li>
+	<li>Upgraded audio utility with continuous forward playback</li>
 </ol>
 
 <footer>&copy; 2016. Kai Shiao. All rights reserved.</footer>
