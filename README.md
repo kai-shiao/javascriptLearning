@@ -1,6 +1,6 @@
-<h1>javascriptCodingQuestions</h1>
+<h1>javascriptAndJqueryCodingQuestions</h1>
 
-<p>javascriptCodingQuestions is a repository containing a collection of JavaScript programs integrated with HTML. In this context, this allows the user to 
+<p>This is a repository containing a collection of vanilla JavaScript and jQuery programs integrated with HTML. In this context, this allows the user to 
 provide input, with JavaScript immediately providing a response.</p>
 
 <h2>PROGRAMS</h2>
