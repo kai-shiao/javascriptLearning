@@ -7,3 +7,5 @@
 	has just ended.</li>
 	<li>Corresponding labels for the corresponding backward and forward buttons.</li>
 </ul>
+
+<footer>&copy; 2016. Kai Shiao. All rights reserved.</footer>
