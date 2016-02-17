@@ -4,11 +4,11 @@ body>button{
 	width: 30px;
 }
 
-body>button#backward{
+body>button:first-of-type{
 	margin-left: 60px;
 }
 
-body>button#forward>p{
+body>button:last-of-type>p{
 	border-left: 6px solid gray;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
@@ -17,7 +17,7 @@ body>button#forward>p{
 	width: 0;
 }
 
-body>button#backward>p{
+body>button:first-of-type>p{
 	border-right: 6px solid gray;
 	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent;
