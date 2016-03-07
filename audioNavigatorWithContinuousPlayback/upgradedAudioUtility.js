@@ -1,5 +1,5 @@
 function changeSong(e){
-	var getElementInfo=e.target.id;
+	var getElementInfo=Number(e.target.id);
 	var trackListing=['ifYouHadMyLove.mp3','theOne.mp3','tooLate.mp3']; 
 	//Model a real life track-listing through an array; the array index position here is analogous to the track number.
 
@@ -76,13 +76,14 @@ function continuousForwardPlayback(){
 }
 
 function showDescription(e){
-	var eventTargetID=e.target.id;
+	var eventTarget=e.target;
+	var forwardButton=document.getElementsByTagName('button')[1];
 	var parentElement=document.getElementsByTagName('body')[0];
 	var description=document.createElement('p');
 	description.className='buttonLabels';
 	parentElement.appendChild(description);
 	
-	if (eventTargetID==='forward'){
+	if (eventTarget===forwardButton){
 		description.id='forwardLabel';
 		description.textContent='Forward';
 	} else {
@@ -92,10 +93,11 @@ function showDescription(e){
 }
 
 function removeDescription(e){
-	var eventTargetID=e.target.id;
+	var eventTarget=e.target;
+	var forwardButton=document.getElementsByTagName('button')[1];
 	var parentElement=document.getElementsByTagName('body')[0];
 	
-	if (eventTargetID==='forward'){
+	if (eventTarget===forwardButton){
 		var forwardLabel=document.getElementById('forwardLabel');
 		parentElement.removeChild(forwardLabel);
 	} else {
